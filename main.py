@@ -5,7 +5,7 @@ import random
 import math
 
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
-apple = cv2.imread("Apple-Fruit-Download-PNG.png",-1)
+apple = cv2.imread("apple.png",-1)
 apple_mask = apple[:,:,3]
 apple_mask_inv = cv2.bitwise_not(apple_mask)
 apple = apple[:,:,0:3]
